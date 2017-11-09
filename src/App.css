@@ -1,7 +1,7 @@
-.homeHeader {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.navRight {
-  float: right;
+.homeHeader {
+  text-align: center;
 }
