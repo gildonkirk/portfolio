@@ -2,6 +2,24 @@
   box-sizing: border-box;
 }
 
+.bodyContainer {
+  width: 100vw;
+  position: absolute;
+}
+
+.navContainer {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.contentContainer {
+  display: block;
+  clear: both;
+  padding-top: 75px;
+}
+
 .homeHeader {
   text-align: center;
 }

@@ -5,7 +5,7 @@ import Tagline from '../Components/Home/Tagline';
 class Home extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container contentContainer">
         <HomeHeader />
         <Tagline />
       </div>
