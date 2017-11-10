@@ -6,8 +6,12 @@ class Home extends Component {
   render() {
     return (
       <div className="container contentContainer pageBody">
-        <HomeHeader />
-        <Tagline />
+        <div className="row pageBodyRow">
+          <div className="col-12 align-self-center pageBodyCol">
+            <HomeHeader />
+            <Tagline />
+          </div>
+        </div>
       </div>
     )
   };

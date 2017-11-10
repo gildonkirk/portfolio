@@ -16,6 +16,14 @@ html, body {
   width: 100vw;
 }
 
+.pageBodyRow {
+  height: 100%;
+}
+
+.pageBodyCol {
+  margin-bottom: 20px;
+}
+
 .bodyContainer {
   width: 100vw;
   position: absolute;
@@ -35,7 +43,6 @@ html, body {
 .contentContainer {
   display: block;
   clear: both;
-  padding-top: 75px;
 }
 
 .homeHeader {
