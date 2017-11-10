@@ -9,6 +9,7 @@ class App extends Component {
       <div className="bodyContainer">
         <Nav />
         <Home />
+        <Home />
       </div>
     );
   };
