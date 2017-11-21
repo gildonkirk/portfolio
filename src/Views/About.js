@@ -8,7 +8,7 @@ class About extends Component {
       <div className="container contentContainer pageBody">
         <div className="row pageBodyRow">
           <div className="col-12 align-self-center pageBodyCol">
-            <PageHeader />
+            <PageHeader pageName='About' />
             <AboutBody />
           </div>
         </div>
