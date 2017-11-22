@@ -11,20 +11,20 @@ class PortfolioGrid extends Component {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src={require("../../assets/music.jpg")} alt="First slide" />
+            <img className="d-block w-100" src={require("../../assets/music_wide.jpg")} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={require("../../assets/got.jpg")} alt="Second slide" />
+            <img className="d-block w-100" src={require("../../assets/got_wide.jpg")} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={require("../../assets/gif.jpg")} alt="Third slide" />
+            <img className="d-block w-100" src={require("../../assets/gif_wide.jpg")} alt="Third slide" />
           </div>
         </div>
-        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a className="carousel-control-prev carouselControl" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
           <span className="sr-only">Previous</span>
         </a>
-        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a className="carousel-control-next carouselControl" href="#carouselExampleIndicators" role="button" data-slide="next">
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="sr-only">Next</span>
         </a>

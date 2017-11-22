@@ -63,3 +63,13 @@ html, body {
   display: inline-block;
   float: none;
 }
+
+.d-block {
+  margin: 0 auto;
+}
+
+.carousel {
+  background-color: #222222;
+  width: 90%;
+  margin: 0 auto;
+}
