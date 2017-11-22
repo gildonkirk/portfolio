@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Nav from './Components/MultiUse/Nav';
 import Home from './Views/Home';
 import About from './Views/About';
-import Portfolio from './Views/Portfolio'
+import Portfolio from './Views/Portfolio';
+import Contact from './Views/Contact';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Home />
         <About />
         <Portfolio />
+        <Contact />
       </div>
     );
   };

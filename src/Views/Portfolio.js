@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PageHeader from '../Components/MultiUse/PageHeader';
+import PortfolioGrid from '../Components/Portfolio/PortfolioGrid';
 
 class Portfolio extends Component {
   render() {
@@ -8,6 +9,7 @@ class Portfolio extends Component {
         <div className="row pageBodyRow">
           <div className="col-12 align-self-center pageBodyCol">
             <PageHeader pageName='Portfolio' />
+            <PortfolioGrid />
           </div>
         </div>
       </div>
