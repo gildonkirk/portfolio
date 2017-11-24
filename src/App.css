@@ -54,22 +54,16 @@ html, body {
   margin-bottom: 45px;
 }
 
-.gridRow {
+.float-wrap {
+  width: 4016px;
+  padding: 0 10px;
+  overflow: auto;
+}
+.left-floater {
+  margin: 0 5px;
+  width: 500px;
+  float: left;
+}
+.outer {
   overflow-x: scroll;
-  white-space: nowrap;
-}
-
-.gridItem {
-  display: inline-block;
-  float: none;
-}
-
-.d-block {
-  margin: 0 auto;
-}
-
-.carousel {
-  background-color: #222222;
-  width: 90%;
-  margin: 0 auto;
 }
