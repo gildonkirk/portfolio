@@ -10,6 +10,10 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  background-color: #111111;
+}
+
 .pageBody {
   height: 100%;
   width: 100%;
@@ -41,6 +45,10 @@ html, body {
   z-index: 1;
 }
 
+.navbar {
+  background-color: #333333;
+}
+
 .contentContainer {
   display: block;
   clear: both;
@@ -48,11 +56,25 @@ html, body {
 
 .homeHeader {
   text-align: center;
+  color: #eeeeee;
+}
+
+.tagline {
+  color: #eeeeee;
 }
 
 .pageHeader {
   text-align: center;
   margin-bottom: 45px;
+  color: #eeeeee;
+}
+
+.description {
+  color: #eeeeee;
+}
+
+.descriptionHeader {
+  color: #eeeeee;
 }
 
 .float-wrap {
@@ -108,7 +130,7 @@ html, body {
 
 .opaque:hover {
   z-index: 100;
-  background-color: #00277D;
+  background-color: #D40300;
   opacity: .5;
 }
 
