@@ -134,6 +134,26 @@ body {
   opacity: .5;
 }
 
+.opaque:hover + .opaque-label {
+  z-index: 101;
+}
+
+.opaque-label:hover ~ .opaque {
+  background-color: #D40300;
+  opacity: .5;
+}
+
+.opaque-label {
+  position: absolute;
+  opacity: 1;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: -100;
+  background-color: #ffffff;
+}
+
 #scroll::-webkit-scrollbar {
   background-color: #eeeeee;
   height: 5px;

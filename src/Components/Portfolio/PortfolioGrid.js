@@ -10,7 +10,9 @@ class PortfolioGrid extends Component {
               <img className='img-fluid img-hover left-floater' src={require("../../assets/music.jpg")} alt=""/>
             </a>
             <div className="opaque">
-              Music to Date
+              <div className="opaque-label">
+                Music to Date
+              </div>
             </div>
           </div>
           <div className="img-link">
@@ -19,6 +21,9 @@ class PortfolioGrid extends Component {
             </a>
             <div className="opaque">
             </div>
+            <div className="opaque-label">
+              GOT Trivia
+            </div>
           </div>
           <div className="img-link">
             <a href="https://gildonkirk.github.io/gif-er-izer/" target="_blank">
@@ -26,12 +31,18 @@ class PortfolioGrid extends Component {
             </a>
             <div className="opaque">
             </div>
+            <div className="opaque-label">
+              Gif-er-izer
+            </div>
           </div>
           <div className="img-link">
             <a href="https://gildonkirk.github.io/star-wars-tbs/" target="_blank">
               <img className='img-fluid img-hover left-floater' src={require("../../assets/starwars.jpg")} alt=""/>
             </a>
             <div className="opaque">
+            </div>
+            <div className="opaque-label">
+              Star Wars Game
             </div>
           </div>
         </div>
