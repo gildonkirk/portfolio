@@ -92,8 +92,14 @@ html, body {
 #scroll::-webkit-scrollbar {
   background-color: #eeeeee;
   height: 5px;
+  border-radius: 10px;
+}
+
+#scroll::-webkit-scrollbar-thumb-track {
+
 }
 
 #scroll::-webkit-scrollbar-thumb {
   background-color: #444444;
+  border-radius: 10px;
 }
