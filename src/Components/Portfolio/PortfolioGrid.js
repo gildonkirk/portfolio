@@ -10,9 +10,9 @@ class PortfolioGrid extends Component {
               <img className='img-fluid img-hover left-floater' src={require("../../assets/music.jpg")} alt=""/>
             </a>
             <div className="opaque">
-              <div className="opaque-label">
-                Music to Date
-              </div>
+            </div>
+            <div className="opaque-label">
+              Music to Date
             </div>
           </div>
           <div className="img-link">

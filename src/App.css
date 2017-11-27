@@ -121,38 +121,40 @@ body {
 }
 
 .opaque {
+  display: none;
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.opaque:hover {
-  z-index: 100;
-  background-color: #D40300;
-  opacity: .5;
-}
-
-.opaque:hover + .opaque-label {
-  z-index: 101;
-}
-
-.opaque-label:hover ~ .opaque {
-  background-color: #D40300;
-  opacity: .5;
+  background-color: #222222;
 }
 
 .opaque-label {
+  display: none;
   position: absolute;
   opacity: 1;
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
   text-align: center;
-  z-index: -100;
   background-color: #ffffff;
 }
+
+.img-link:hover .opaque {
+  display: block;
+  opacity: .5;
+}
+
+.img-link:hover .opaque-label {
+  display: block;
+}
+
+/*.opaque:hover + .opaque-label {
+  z-index: 101;
+}*/
+
+
 
 #scroll::-webkit-scrollbar {
   background-color: #eeeeee;
