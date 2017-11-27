@@ -134,16 +134,17 @@ body {
   display: none;
   position: absolute;
   opacity: 1;
-  top: 50%;
+  top: 45%;
   width: 100%;
   transform: translateY(-50%);
   text-align: center;
-  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 34pt;
 }
 
 .img-link:hover .opaque {
   display: block;
-  opacity: .5;
+  opacity: .8;
 }
 
 .img-link:hover .opaque-label {
