@@ -79,7 +79,7 @@ body {
 
 .float-wrap {
   width: 1700px;
-  padding: 12px 10px;
+  padding: 12px 0px;
   overflow: auto;
 }
 
@@ -156,6 +156,9 @@ body {
 }*/
 
 
+#img-one {
+  margin-left: 0;
+}
 
 #scroll::-webkit-scrollbar {
   background-color: #eeeeee;
