@@ -159,9 +159,22 @@ body {
   display: block;
 }
 
-/*.opaque:hover + .opaque-label {
-  z-index: 101;
-}*/
+.contactImageRow {
+  margin: 0 25%;
+}
+
+.contactInfoItem {
+  text-align: center;
+}
+
+.fa {
+  color: #ffffff;
+  margin-top: 7px;
+}
+
+.githubImage, .linkedInImage {
+  width: 60px;
+}
 
 
 #img-one {
