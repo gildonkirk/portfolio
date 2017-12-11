@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import PortfolioGridItem from './PortfolioGridItem';
 
 class PortfolioGrid extends Component {
   render() {
     return (
       <div className="outer" id="scroll">
         <div className="float-wrap">
-          <div className="img-link" id="img-one">
+          <div className="img-link">
             <img className='img-fluid img-hover left-floater' src={require("../../assets/music.jpg")} alt=""/>
             <a href="https://github.com/kyscott/Music-To-Date" target="_blank" rel="noopener noreferrer">
               <div className="opaque"></div>
@@ -59,3 +60,9 @@ class PortfolioGrid extends Component {
 }
 
 export default PortfolioGrid;
+
+// <PortfolioGrid id="img-one"
+//   source={ "../../assets/music.jpg" }
+//   reference={ "https://github.com/kyscott/Music-To-Date" }
+//   name={ "Music to Date" }
+// />
