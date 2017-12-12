@@ -172,10 +172,10 @@ body {
   margin-top: 7px;
 }
 
-.githubImage, .linkedInImage {
+.contactImage {
   width: 60px;
+  height: 60px;
 }
-
 
 #img-one {
   margin-left: 0;

@@ -5,10 +5,16 @@ class NavRight extends Component {
     return (
       <ul className="nav">
         <li className="nav-item active">
-          <a className="nav-link navText" href="/">Home <span className="sr-only">(current)</span></a>
+          <a className="nav-link navText" href="#home">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link navText" href="/">Link</a>
+          <a className="nav-link navText" href="#about">About</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link navText" href="#portfolio">Portfolio</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link navText" href="#contact">Contact</a>
         </li>
       </ul>
     );
