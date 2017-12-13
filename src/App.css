@@ -76,11 +76,12 @@ html, body {
 }
 
 .description {
-  color: #222222;
+  color: #eeeeee;
 }
 
 .descriptionHeader {
-  color: #222222;
+  color: #eeeeee;
+  font-family: 'Raleway', sans-serif;
 }
 
 .float-wrap {
@@ -146,6 +147,7 @@ html, body {
   text-align: center;
   color: #ffffff;
   font-size: 34pt;
+  font-family: 'Raleway', sans-serif;
 }
 
 .img-link:hover .opaque {
