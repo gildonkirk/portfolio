@@ -10,10 +10,6 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
-  background-color: #111111;
-}
-
 .row {
   margin-right: 0;
 }
@@ -60,11 +56,12 @@ body {
 
 .homeHeader {
   text-align: center;
-  color: #eeeeee;
+  color: #222222;
+  font-family: 'Raleway', sans-serif;
 }
 
 .tagline {
-  color: #eeeeee;
+  color: #222222;
 }
 
 .cvimg {
@@ -74,15 +71,16 @@ body {
 .pageHeader {
   text-align: center;
   margin-bottom: 45px;
-  color: #eeeeee;
+  color: #222222;
+  font-family: 'Raleway', sans-serif;
 }
 
 .description {
-  color: #eeeeee;
+  color: #222222;
 }
 
 .descriptionHeader {
-  color: #eeeeee;
+  color: #222222;
 }
 
 .float-wrap {
@@ -182,7 +180,7 @@ body {
 }
 
 #scroll::-webkit-scrollbar {
-  background-color: #eeeeee;
+  background-color: #222222;
   height: 3px;
 }
 
