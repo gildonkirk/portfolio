@@ -55,9 +55,15 @@ html, body {
 }
 
 .homeHeader {
+  background: url('./assets/treeOpenMiddle.png');
+  background-size: 100% 100%;
+  height: 250px;
   text-align: center;
   color: #222222;
   font-family: 'Raleway', sans-serif;
+  width: 60%;
+  margin: 0 auto;
+  padding: 110px 0 0 0;
 }
 
 .tagline {
