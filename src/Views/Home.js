@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HomeHeader from '../Components/Home/HomeHeader';
 import Tagline from '../Components/Home/Tagline';
-import homeBackground from '../assets/concrete-texture.png';
+import homeBackground from '../assets/dark_wall.png';
 
 let backgroundStyle = {
   width: '100%',

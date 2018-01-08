@@ -55,11 +55,11 @@ html, body {
 }
 
 .homeHeader {
-  background: url('./assets/treeOpenPatternWBorder.png');
+  background: url('./assets/TreeHorizontalNoSides.png');
   background-size: 100% 100%;
   height: 250px;
   text-align: center;
-  color: #222222;
+  color: #eeeeee;
   font-family: 'Supermercado One', sans-serif;
   width: 60%;
   margin: 0 auto;
@@ -68,7 +68,7 @@ html, body {
 }
 
 .tagline {
-  color: #222222;
+  color: #eeeeee;
 }
 
 .cvimg {
