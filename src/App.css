@@ -49,8 +49,41 @@ html, body {
   color: #eeeeee;
 }
 
+.navText:hover {
+  color: #71cdd8;
+}
+
+.iconContainer {
+  position: relative;
+  margin: 0 0 3px 0;
+}
+
+.logoImg {
+  position: absolute;
+}
+
+.logoText {
+  position: relative;
+  top: .5px;
+  left: 50px;
+}
+
+.navHeader {
+  color: #eeeeee;
+  font-size: 14pt;
+  margin: 0;
+  letter-spacing: 2.2px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .navbar {
   background-color: #121212;
+}
+
+.navHeadDescrip {
+  color: #eeeeee;
+  font-size: 8pt;
+  margin: 0;
 }
 
 .contentContainer {
@@ -206,4 +239,34 @@ html, body {
 
 #scroll::-webkit-scrollbar-thumb {
   background-color: #444444;
+}
+
+@media screen and (max-width: 1200px) {
+  .homeHeader {
+    background: url('./assets/TreeHorizontal1200.png');
+    background-size: 100% 100%;
+    height: 230px;
+    text-align: center;
+    color: #eeeeee;
+    font-family: 'Supermercado One', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    padding: 97px 0 0 0;
+    font-size: 26pt;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .homeHeader {
+    background: url('./assets/TreeHorizontal992.png');
+    background-size: 100% 100%;
+    height: 180px;
+    text-align: center;
+    color: #eeeeee;
+    font-family: 'Supermercado One', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    padding: 72px 0 0 0;
+    font-size: 26pt;
+  }
 }
