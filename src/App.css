@@ -45,8 +45,12 @@ html, body {
   z-index: 1;
 }
 
+.navText {
+  color: #eeeeee;
+}
+
 .navbar {
-  background-color: #333333;
+  background-color: #121212;
 }
 
 .contentContainer {
