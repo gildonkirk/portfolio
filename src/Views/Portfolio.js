@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PageHeader from '../Components/MultiUse/PageHeader';
 import PortfolioGrid from '../Components/Portfolio/PortfolioGrid';
-import portfolioBackground from '../assets/vintage-concrete.png';
+import portfolioBackground from '../assets/dark_wall.png';
 
 let backgroundStyle = {
   width: '100%',

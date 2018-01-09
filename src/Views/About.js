@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PageHeader from '../Components/MultiUse/PageHeader';
 import AboutBody from '../Components/About/AboutBody';
-import aboutBackground from '../assets/dark_wall.png';
+import aboutBackground from '../assets/dark_wall_light.png';
 
 let backgroundStyle = {
   width: '100%',

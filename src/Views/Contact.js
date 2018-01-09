@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PageHeader from '../Components/MultiUse/PageHeader';
 import ContactInfo from '../Components/Contact/ContactInfo';
-import portfolioBackground from '../assets/asfalt.png';
+import portfolioBackground from '../assets/dark_wall_light.png';
 
 let backgroundStyle = {
   width: '100%',
