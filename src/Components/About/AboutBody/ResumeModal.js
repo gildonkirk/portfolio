@@ -19,7 +19,7 @@ class ResumeModal extends Component {
                 </button>
               </div>
               <div className="modal-body">
-                <img className="cvimg" src={require("../../../assets/Resume_Gildon_Kirk.jpg")} alt=""/>
+                <img className="cvimg" src={require("../../../assets/Resume_Gildon_Kirk_14pt.png")} alt=""/>
               </div>
               <div className="modal-footer">
                 <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
