@@ -15,7 +15,7 @@ class Contact extends Component {
         <div className="container contentContainer pageBody">
           <div className="row pageBodyRow" id="contact">
             <div className="col-12 align-self-center pageBodyCol">
-              <PageHeader pageName="Contact"/>
+              <PageHeader className="contactPageHeader" pageName="Contact"/>
               <ContactInfo />
             </div>
           </div>

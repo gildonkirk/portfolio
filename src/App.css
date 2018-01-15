@@ -62,6 +62,14 @@ html::-webkit-scrollbar-thumb {
   color: #eeeeee;
 }
 
+.nav-link {
+  color: #eeeeee;
+}
+
+.navbar-toggler:focus {
+  outline: 0;
+}
+
 .navText:hover {
   color: #71cdd8;
 }
@@ -314,6 +322,9 @@ html::-webkit-scrollbar-thumb {
     padding: 72px 0 0 0;
     font-size: 26pt;
   }
+  .opaque-label {
+    font-size: 20pt;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -329,13 +340,47 @@ html::-webkit-scrollbar-thumb {
     padding: 56px 0 0 0;
     font-size: 26pt;
   }
+  .pageHeader {
+    margin: 45px 0 10px 0;
+  }
+  .contactImageRow {
+    margin-top: 10px;
+  }
 }
 
-@media screen and (max-width: 576px) {
-  .nav-link {
-    padding: .5rem .3rem;
+@media screen and (max-width: 595px) {
+  .descriptionHeader {
+    font-size: 16pt;
   }
-  .nav {
-    clear: both;
+  .pageHeader {
+    font-size: 18pt;
+    margin: 45px 0 20px 15px;
+  }
+  .description {
+    font-size: 12pt;
+  }
+  .tagline {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .tagline {
+    font-size: 14pt;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .description {
+    font-size: 10pt;
+  }
+  .contactImageRow {
+    margin: 0 9%;
+  }
+  .img-link, .img-fluid {
+    width: 316px;
+  }
+  .img-link {
+    height: 206px;
   }
 }
