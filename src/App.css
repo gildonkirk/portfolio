@@ -383,4 +383,11 @@ html::-webkit-scrollbar-thumb {
   .img-link {
     height: 206px;
   }
+  .homeHeader {
+    padding: 59px 0 0 0;
+    font-size: 22pt;
+  }
+  .tagline {
+    font-size: 12pt;
+  }
 }
